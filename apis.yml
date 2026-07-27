@@ -1,8 +1,25 @@
 aid: infinitopes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infinitopes.png
 name: Infinitopes
-description: 'Infinitopes is a company surfaced as a portfolio company of amplify-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: digital-biology. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Infinitopes is an Oxford University spinout biotech company (founded 2021, based at the
+  BioEscalator in Oxford, UK) developing off-the-shelf precision cancer vaccines aimed at preventing
+  deaths from cancer metastases. Its proprietary Precision Immunomics platform identifies tumor-specific
+  antigens by integrating immunopeptidomics, advanced laboratory methods, machine learning, and validated
+  biological testing across cancer types, paired with engineered viral vectors that elicit protective CD8
+  T-cell responses. Surfaced in the API Evangelist network as a portfolio company of Amplify Partners
+  (also supported by Cancer Research UK). This is a digital-biology company profile; Infinitopes publishes
+  no public developer portal, API documentation, SDKs, or technical integration surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/infinitopes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Digital Biology
+- Biotechnology
+- Cancer Vaccines
+- Immunotherapy
+- Immunomics
+- Machine Learning
+- Oxford
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/infinitopes-domain-security.yml
 - type: Website
   url: https://infinitopes.com
+- type: Blog
+  url: https://infinitopes.com/news
+- type: Support
+  url: https://infinitopes.com/contact
+- type: PrivacyPolicy
+  url: https://infinitopes.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
