@@ -48,7 +48,7 @@ tags:
 - Cancer Vaccines
 - Immunotherapy
 - Immunomics
-- Machine-Learning
+- Machine Learning
 - Oxford
 tags_raw:
 - Company
@@ -59,6 +59,7 @@ tags_raw:
 - Immunomics
 - Machine Learning
 - Oxford
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
